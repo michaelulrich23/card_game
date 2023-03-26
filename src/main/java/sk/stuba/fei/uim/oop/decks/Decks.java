@@ -12,31 +12,12 @@ public class Decks {
 
     public Decks(Player[] players){
         ArrayList<Card> cards = new ArrayList<>();
-        /*cards.add(new Barrel(this));
+        cards.add(new Barrel(this));
         cards.add(new Barrel(this));
         cards.add(new Dynamite(this));
         cards.add(new Jail(this));
         cards.add(new Jail(this));
-        cards.add(new Jail(this));*/
-
-
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Barrel(this));
-        cards.add(new Dynamite(this));
-        cards.add(new Dynamite(this));
-        cards.add(new Dynamite(this));
-        cards.add(new Dynamite(this));
-        cards.add(new Dynamite(this));
-
-
-
-        /*
+        cards.add(new Jail(this));
         for (int i = 0; i < 30; i++) {
             cards.add(new Bang(this));
         }
@@ -53,7 +34,7 @@ public class Decks {
             cards.add(new Stagecoach(this));
         }
         cards.add(new Indians(this));
-        cards.add(new Indians(this));*/
+        cards.add(new Indians(this));
 
         Collections.shuffle(cards);
         this.deck = new ArrayList<>();
